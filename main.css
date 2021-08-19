@@ -1,0 +1,170 @@
+*{
+    padding: 40px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    
+
+}
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .container {
+      /* background-color: #aa999a;  */
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      max-width: 768px;
+      margin: auto;
+    }
+    
+  }
+  @media screen and (max-width: 411px) {
+    .container {
+        /* background-color: #aa999a;  */
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 411px;
+        margin: auto;
+      }
+      
+    }
+    @media screen and (max-width: 414px) {
+      .container {
+          /* background-color: #aa999a;  */
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          max-width: 414px;
+          margin: auto;
+        }
+        
+      }
+    @media screen and (max-width: 375px) {
+      .container {
+          background-color: yellow; 
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          max-width: 375px;
+          margin: auto;
+        }
+        
+      }
+  @media screen and (max-width: 360px) {
+    .container {
+         background-color: greenyellow;  
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 360px;
+        margin: auto;
+      }
+      .cta{
+    border-style:solid wh;
+    margin:10px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 0.5em;
+    border-radius: 10px;
+    align-self: center;
+    background-color: white;
+  
+
+      }
+      .column2{
+        width: 285px;
+      }
+    }
+
+/* Desktop Styles */
+@media only screen and (min-width: 1440px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+
+    }
+  }  
+
+.container{
+ 
+    display: flex;
+    position: relative;
+    justify-content: space-between; 
+}
+body {
+    color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+  }
+
+.column1 {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.column1 p{
+    color: hsla(0, 0%, 100%, 0.75);
+   
+
+}  
+ h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}                                                                                                                        
+.column2{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+ /* p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: auto;
+
+} */
+.column3{
+    background-color: hsl(179, 100%, 13%);
+   
+}
+.column3 p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.cta {
+   /* border: hsl(0, 0%, 95%);*/
+    border-style:solid wh;
+    padding: 10px;
+    margin:35px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-radius: 20px;
+    align-self: center;
+    padding: 10px 10px 10px;
+    background-color: white;
+  }
+ .column1 a{
+    color:hsl(31, 77%, 52%);
+  }
+  .column2 a{
+    color:hsl(184, 100%, 22%);
+  }
+  .column3 a{
+    color:hsl(179, 100%, 13%);
+  }
+  a:hover{
+  border-style:solid;
+  background-color: transparent;
+  color:white;
+  }
+
+  img{
+    margin-bottom: 10px;
+  }
